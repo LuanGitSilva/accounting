@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -52,8 +53,6 @@ body {
     background-color: var(--cor-02);
 }
 
-
-
 header {
     width: 100%;
     display: flex;
@@ -103,6 +102,10 @@ nav .nav1 {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 25px;
+}
+
+nav .nav1 a {
+    text-decoration: none;
 }
 
 nav .logo {

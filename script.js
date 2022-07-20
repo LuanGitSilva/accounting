@@ -7,6 +7,7 @@ let open = document.querySelector(".menu-itens");
 function openMenu() {
     if(open.style.display == 'flex') {
         open.style.display = 'none';
+        document.querySelector(".container").classList.remove("change");
     } else {
         open.style.display = 'flex';
     } 
